@@ -20,6 +20,12 @@ public class AdmissionProcess {
     }
 
     public void apply(Student student) {
+        EligibilityChecker checker = program.getEligibilityChecker();
+        if (checker != null && !checker.isEligible(student)) {
+            System.out.println("Application Rejected for " + student.getName() + " -> " + checker.getRejectionReason(student));
+            return;
+        }
+        System.out.println("Application Accepted for " + student.getName() + " to " + program.getName());
         applicants.add(student);
     }
 
