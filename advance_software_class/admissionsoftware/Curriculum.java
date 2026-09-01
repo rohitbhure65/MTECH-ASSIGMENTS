@@ -1,4 +1,3 @@
-package admissionsoftware;
 
 import java.util.List;
 

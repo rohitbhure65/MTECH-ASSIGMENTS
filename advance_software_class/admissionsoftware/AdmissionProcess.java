@@ -1,4 +1,3 @@
-package admissionsoftware;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +5,6 @@ import java.util.List;
 public class AdmissionProcess {
     private int academicYear;
     private Program program;
-    private Department department;
     private int seatCapacity;
     private MeritCalculator meritCalculator;
     private List<Student> applicants;
@@ -15,7 +13,6 @@ public class AdmissionProcess {
     public AdmissionProcess(int academicYear, Program program, Department department, int seatCapacity, MeritCalculator meritCalculator) {
         this.academicYear = academicYear;
         this.program = program;
-        this.department = department;
         this.seatCapacity = seatCapacity;
         this.meritCalculator = meritCalculator;
         this.applicants = new ArrayList<>();

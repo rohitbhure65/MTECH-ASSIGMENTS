@@ -13,4 +13,5 @@ public class AcademicRecord {
     
     public double getCgpa() { return cgpa; }
     public EligibilityType getDegree() { return degree; }
+    public int getGraduationYear() { return graduationYear; }
 }

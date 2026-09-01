@@ -1,4 +1,3 @@
-package admissionsoftware;
 
 public class Student {
     private String id;

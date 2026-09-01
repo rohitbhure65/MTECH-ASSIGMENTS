@@ -1,4 +1,3 @@
-package admissionsoftware;
 
 public class Program {
     private String name;
@@ -13,4 +12,5 @@ public class Program {
 
     public String getName() { return name; }
     public ProgramType getType() { return type; }
+    public Curriculum getCurriculum() { return curriculum; }
 }

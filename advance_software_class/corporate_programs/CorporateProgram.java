@@ -12,4 +12,6 @@ public class CorporateProgram {
     }
     
     public String getProgramName() { return programName; }
+    public ProgramCategory getCategory() { return category; }
+    public int getDurationMonths() { return durationMonths; }
 }

@@ -1,4 +1,3 @@
-package admissionsoftware;
 
 public class Qualification {
     private String degreeName;
@@ -27,4 +26,8 @@ public class Qualification {
     public double getCgpaOrPercentage() { return cgpaOrPercentage; }
     public boolean isSpecialExamQualified() { return isSpecialExamQualified; }
     public double getSpecialExamScore() { return specialExamScore; }
+    public String getDegreeName() { return degreeName; }
+    public String getInstitution() { return institution; }
+    public int getYearOfPassing() { return yearOfPassing; }
+    public QualificationType getType() { return type; }
 }

@@ -13,4 +13,5 @@ public class Candidate {
     
     public String getName() { return name; }
     public AcademicRecord getRecord() { return record; }
+    public String getEmail() { return email; }
 }
