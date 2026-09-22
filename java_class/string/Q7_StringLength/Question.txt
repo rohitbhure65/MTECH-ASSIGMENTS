@@ -1,0 +1,1 @@
+7. Find the length of a string without using the standard .length() method.

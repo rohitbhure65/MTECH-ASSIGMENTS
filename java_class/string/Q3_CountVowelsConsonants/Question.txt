@@ -1,0 +1,1 @@
+3. Count the total number of vowels and consonants in a given string.

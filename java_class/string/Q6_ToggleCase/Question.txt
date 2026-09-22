@@ -1,0 +1,1 @@
+6. Convert all lowercase characters to uppercase and vice versa in a given string.

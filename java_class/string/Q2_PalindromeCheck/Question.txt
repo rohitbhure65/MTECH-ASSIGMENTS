@@ -1,0 +1,1 @@
+2. Create a method that checks if a given string is palindrome or not.

@@ -19,7 +19,8 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     cout << "=== Generalized Student Admission & Program Registration System ===" << endl;
 
     auto scsitDept = make_shared<Department>("School of Computer Science & IT (DAVV)");
@@ -52,7 +53,7 @@ int main() {
 
     Student s1("S101", "Alice");
     s1.addQualification(Qualification("High School", 92.5, "DPS", 2023, "HIGH_SCHOOL"));
-    
+
     Student s2("S102", "Bob");
     s2.addQualification(Qualification("High School", 48.0, "KVS", 2023, "HIGH_SCHOOL"));
 

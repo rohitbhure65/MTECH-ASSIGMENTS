@@ -1,0 +1,1 @@
+5. Write a program to remove all spaces from a string.
