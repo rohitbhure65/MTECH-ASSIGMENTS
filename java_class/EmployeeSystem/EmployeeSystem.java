@@ -1,3 +1,5 @@
+package EmployeeSystem;
+
 class Employee {
     private double salary;
 

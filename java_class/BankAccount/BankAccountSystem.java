@@ -1,3 +1,5 @@
+package BankAccount;
+
 class BankAccount {
     protected double balance;
 

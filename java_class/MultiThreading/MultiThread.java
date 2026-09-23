@@ -1,3 +1,5 @@
+package MultiThreading;
+
 // Method 1: extending Thread
 class A extends Thread {
     public void run() {
