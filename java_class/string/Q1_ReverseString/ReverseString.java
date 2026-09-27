@@ -11,3 +11,29 @@ public class ReverseString {
         }
     }
 }
+
+// public class Main {
+
+//     public static String reverseWords(String text) {
+//         String[] words = text.split(" ");
+//         StringBuilder result = new StringBuilder();
+
+//         for (int i = words.length - 1; i >= 0; i--) {
+//             result.append(words[i]);
+
+//             if (i > 0) {
+//                 result.append(" ");
+//             }
+//         }
+
+//         return result.toString();
+//     }
+
+//     public static void main(String[] args) {
+//         String text = "hello world how are you";
+
+//         String reversed = reverseWords(text);
+
+//         System.out.println(reversed);
+//     }
+// }
