@@ -41,12 +41,12 @@ class Employee2 extends Person {
 public class PersonSystem {
     public static void main(String[] args) {
         System.out.println("=== Person System ===");
-        
+
         Person person = new Person("Alice", "Smith");
         System.out.println("Person Name: " + person.getFirstName() + " " + person.getLastName());
-        
+
         System.out.println();
-        
+
         Employee2 employee = new Employee2("Bob", "Johnson", "E-7890", "Senior Developer");
         System.out.println("Employee ID: " + employee.getEmployeeId());
         System.out.println("Employee Name: " + employee.getFirstName() + " " + employee.getLastName());

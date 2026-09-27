@@ -21,14 +21,16 @@ class B implements Runnable {
 
 public class MultiThread {
     public static void main(String[] args) {
-        // Thread Class
-        System.out.println("Method 1 using Thread Class");
-        A t1 = new A();
-        t1.start();
 
-        // Runnable Interface
-        System.out.println("Method 2 using Runnable interface");
+        A t1 = new A();
+        t1.setPriority(Thread.MIN_PRIORITY); // Priority = 1
+
         Thread t2 = new Thread(new B());
+        t2.setPriority(Thread.MAX_PRIORITY); // Priority = 10
+        // t2.setPriority(Thread.MIN_PRIORITY); // Priority = 1
+        // t2.setPriority(Thread.NORM_PRIORITY); // Priority = 5
+
+        t1.start();
         t2.start();
     }
 }

@@ -1,3 +1,6 @@
 {
-    "java.project.sourcePaths": ["java_class", "java_class/package program"]
+    "java.project.sourcePaths": [
+        "java_class",
+        "java_class/PackageProgram"
+    ]
 }
