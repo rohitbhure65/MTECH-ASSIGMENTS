@@ -14,7 +14,7 @@ public class ReverseString {
 
 // public class Main {
 
-//     public static String reverseWords(String text) {
+//     public static String ReverseString(String text) {
 //         String[] words = text.split(" ");
 //         StringBuilder result = new StringBuilder();
 
@@ -32,7 +32,7 @@ public class ReverseString {
 //     public static void main(String[] args) {
 //         String text = "hello world how are you";
 
-//         String reversed = reverseWords(text);
+//         String reversed = ReverseString(text);
 
 //         System.out.println(reversed);
 //     }
