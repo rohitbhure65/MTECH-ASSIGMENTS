@@ -20,7 +20,7 @@ public class MemoryDemo {
         obj1.instanceField = 99;
         System.out.println(obj2.instanceField); // 20 — separate copy, unaffected
 
-        classField = 77;
+        MemoryDemo.classField = 77;
         System.out.println(MemoryDemo.classField); // 77 — shared by ALL instances
 
         // System.out.print(localVar); // error
