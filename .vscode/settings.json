@@ -1,6 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "java_class/PackageProgram",
         "java_class",
-        "java_class/PackageProgram"
+        "jdbc/src"
+    ],
+    "java.project.referencedLibraries": [
+        "jdbc/lib/**/*.jar"
     ]
 }
