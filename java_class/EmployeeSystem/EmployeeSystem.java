@@ -29,7 +29,7 @@ class HRManager extends Employee {
 
     @Override
     public double getSalary() {
-        return super.getSalary() + 10000; 
+        return super.getSalary() + 10000;
     }
 
     public void addEmployee() {

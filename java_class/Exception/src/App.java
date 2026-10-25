@@ -1,3 +1,5 @@
+package Exception.src;
+
 import java.lang.reflect.Method;
 
 class InvalidAgeException extends Exception {
@@ -7,6 +9,7 @@ class InvalidAgeException extends Exception {
 }
 
 class Student {
+    @SuppressWarnings("unused")
     private void display() {
         System.out.println("Hello student");
     }
@@ -41,7 +44,6 @@ public class App {
             System.out.println(e.getMessage());
         } catch (IllegalAccessException e) {
             System.out.println("illigal access");
-
         } finally {
             System.out.println("Cleanup always run");
         }

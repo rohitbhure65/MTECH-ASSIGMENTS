@@ -5,7 +5,7 @@ public class StringMethodsDemo {
         // Strings in Java are IMMUTABLE (cannot be changed once created)
         String str1 = "Hello, Java World!";
         String str2 = "hello, java world!";
-        String str3 = new String("Hello"); // Creating using new keyword
+        // String str3 = new String("Hello"); // Creating using new keyword
 
         System.out.println("--- Basic String Methods ---");
 

@@ -3,6 +3,7 @@ package array;
 public class BasicArrays {
     public static void main(String[] args) {
         // 1. Declaration and Initialization
+        @SuppressWarnings("unused")
         int[] arr1 = new int[5]; // Default values are 0
         int[] arr2 = {10, 20, 30, 40, 50}; // Direct initialization
 
